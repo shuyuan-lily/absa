@@ -27,11 +27,15 @@ In the implementation provided by this repository, the task is carried out in a 
 
 #### 1. Aspect Term Extraction (ATE)
 
-
+> Given a sequence (a sentence), 
 
 #### 2. Aspect Polarity Classification (APC)
 
 
+
+You might see words like "ATEPC" in this repository--read it as a conjunction of the two tasks.
+
+The 
 
 ## Usage
 
@@ -48,6 +52,9 @@ Described in [this](https://github.com/orgs/chicago-cdac/projects/7/views/1) iss
 
 The idea is that, given that we have a 
 
+### Aspect Category Detection (ACD)
+
+To enable the model (specifically, aspect term extractor) to be more focused on crops and organizations, it may be a good idea to 
 
 ## Additional Information
 Here is the complete structure of this folder. 
@@ -66,3 +73,8 @@ absa
 ├── train.py
 └── test.py
 ```
+
+### Further Resources
+
+[**A Survey on Aspect-Based Sentiment Analysis: Tasks, Methods, and Challenges**](https://arxiv.org/abs/2203.01054)
+* Covers comprehensively the methods, sub-tasks, and various models in the Aspect-Based Sentiment Analysis field. 
